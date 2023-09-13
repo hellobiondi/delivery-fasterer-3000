@@ -46,6 +46,6 @@ Adapted from: https://github.com/mtpatter/time-series-kafka-demo
 `$docker run -it --rm -v ${PWD}:/home --network=host kafkacsv python bin/sendStream.py Jobs_dynamic.csv order-stream`. You should see the dynamic jobs streaming in.
 
 ## Running up streamlit for visualisation
-1. Open up a terminal and change directory to `$ AIPL/heuristic/streamlit` folder
+1. Open up a terminal and change directory to `$ delivery-fasterer-3000/heuristic/streamlit` folder
 2. run `$ streamlit run app.py`
 3. Voila!
