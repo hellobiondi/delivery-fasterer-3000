@@ -1,0 +1,9 @@
+google_api_key.json
+*.xlsx
+.DS_Store
+__pycache__
+*.pyc
+*.pkl
+*.csv
+*.png
+*.jpg
