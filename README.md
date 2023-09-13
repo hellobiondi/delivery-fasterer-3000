@@ -1,3 +1,6 @@
+# Delivery Fasterer 3000
+A metaheuristic-backed project to assist parcel delivery operators in choosing optimal jobs given constraints
+
 # Set up environment
 Get your packages needed installed:
 
