@@ -1,11 +1,11 @@
 # Delivery Fasterer 3000
 A metaheuristic-backed project to assist parcel delivery operators in choosing optimal jobs given constraints
 
-![Screenshot](https://github.com/hellobiondi/delivery-fasterer-6000/raw/main/screenshots/ss1.png)
-![Screenshot](https://github.com/hellobiondi/delivery-fasterer-6000/raw/main/screenshots/ss2.png)
-![Screenshot](https://github.com/hellobiondi/delivery-fasterer-6000/raw/main/screenshots/ss3.png)
-![Screenshot](https://github.com/hellobiondi/delivery-fasterer-6000/raw/main/screenshots/ss4.png)
-![Screenshot](https://github.com/hellobiondi/delivery-fasterer-6000/raw/main/screenshots/ss5.png)
+![Screenshot](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss1.png)
+![Screenshot](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss2.png)
+![Screenshot](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss3.png)
+![Screenshot](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss4.png)
+![Screenshot](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss5.png)
 
 # Set up environment
 Get your packages needed installed:
