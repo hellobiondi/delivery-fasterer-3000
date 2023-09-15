@@ -1,11 +1,31 @@
 # Delivery Fasterer 3000
-A metaheuristic-backed project to assist parcel delivery operators in choosing optimal jobs given constraints
+A metaheuristic-backed project to assist parcel delivery operators in planning a near-optimal schedule that maximises their income given input constraints.
 
-![Screenshot](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss1.png)
-![Screenshot](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss2.png)
-![Screenshot](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss3.png)
-![Screenshot](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss4.png)
-![Screenshot](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss5.png)
+## Motivation behind this project
+- Demand for delivery and courier services have grown exponentially, and so has this segment of gig workers.
+- To maximise income, workers often have to work long shifts with minimal breaks, some even choosing to “multi-app” to maximise their income. Their well-being was among the issues raised during the National Day Rally in August 2022.
+- The problem:
+Currently, workers choose their orders instinctively, first-come-first-serve.
+Multi-apping is the best way to maximise income and efficiency, yet, there is no single platform solution in Singapore. 
+When a worker overcommits, it could result in the inability to meet service delivery standards, financial penalties and fatigue.​
+
+## Screenshots
+This portion shows screenshots from the streamlit.io app
+
+![Homepage](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss1.png)
+*A humble homepage, with a side panel (This idea came from a friend, @lohkokwee)*
+
+![Input data](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss2.png)
+*Input data was scraped from a list of restaurants; platform, delivery pickup times were randomised, and payout was computed as a function of distance, duration of delivery and some randomness*
+
+![Map of jobs](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss3.png)
+*Map of jobs available using Leaflet*
+
+![Progress bar](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss4.png)
+*Tiny progress bar for users to have something to look at while they await results*
+
+![Gantt chart](https://github.com/hellobiondi/delivery-fasterer-3000/raw/main/screenshots/ss5.png)
+*Gantt chart for a visualisation of a particular worker's schedule the following day to maximise their earnings. 32 Iterations indicate the 32nd iteration of dynamic job scheduling after the 32 updates of ad-hoc delivery orders. Delivery orders that are committed to, cannot be changed.*
 
 # Set up environment
 Get your packages needed installed:
@@ -55,3 +75,7 @@ Adapted from: https://github.com/mtpatter/time-series-kafka-demo
 1. Open up a terminal and change directory to `$ delivery-fasterer-3000/streamlit` folder
 2. run `$ streamlit run app.py`
 3. Voila!
+
+## Team
+This project was done with my teammates, Ruo Xi, Shu Xian, and Li Cheng in fulfilment of our MITB Programme (Artificial Intelligence), and I could never have done it without them!
+Notable libraries used were: DOcplex, alns by n-wouda
